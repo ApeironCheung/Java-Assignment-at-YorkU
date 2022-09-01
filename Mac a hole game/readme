@@ -1,0 +1,36 @@
+Assignment 1:
+
+CHOI, NaHee (Jamie)
+CHEUNG, Pak Hang (Apeiron)
+
+Description:
+A hamster game, where replaced the holes with paper boxes, and replace the gophers with lovely kittens. 
+GUI 1:
+-	3 JRadioButton to determine the game board, which can choose 3 x 3, 4 x 4 or 5 x 5 
+-	Credits.
+- text field for player to entre name
+- button to save name
+- label to show high score
+
+Behavior:
+- button: detect textbox, save the text to String. 
+
+GUI 2:
+-	Gameboard: can be in 3 x 3 grid with 9 JButtons, 4 x 4 grid with 16 JButtons, 5 x 5 grid with 25 JButtons, depends on the player’s choice in setup 
+- 3 types of JButtons in GameBoard: Meow0 shows empty box, Meow1 shows a cat in the box, Meow2 shows the cat stand up from box
+-	Start button: reset the score, reset the gameboard
+-	Exit Button: for player to exit the game
+- label: shows the score
+
+Behavior:
+- Meow2: when clicked, trigger action event, add 2 to score
+- Meow1: when clicked, trigger action event, add 1 to score
+- Meow0: when clicked, trigger action event, add 0 to score
+- every second trigger time event and reset the gameboard, fill 3 types of button randomly.
+- after 1 minute trigger time event and end the game, add the name (from textbox) and score to array,sort the array by score,
+show the top 10 high score to label in setting tab.
+- Start button: check the status of the group Jradio button, get the command to determine the gameboard size, 
+restart the game, reset the board, clear the score, start to use timer to calculate second (update board) and minute (endgame).
+- Exit button: close the window
+
+

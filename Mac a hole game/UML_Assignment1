@@ -1,0 +1,26 @@
+java.awt Assignment1
+
+- score : int
+- size = 3: int
+- pic : String[]
+- command : String[]
+- JTabbedPane : tabbedPane
+- controlPanel : Panel
+- outerPanel : Panel
+- Panel1 : Panel
+- Panel2 : Panel
+- result : JButton[]
+- start : JButton
+- exit : JButton
+- X3 : JRadioButton
+- X4 : JRadioButton
+- X5 : JRadioButton
+- group : ButtonGroup
+
+//constructor
++ assignment1(String title)
++ reset() : void
+
+//mutator
++ settingTab2() : void
++ actionPerformed(ActionEvent e) : void
